@@ -1,6 +1,6 @@
 <manifest>
     <remote name="zmk-github" fetch="ssh://git@github.com/zmkfirmware/" revision="master"/>
-    <remote name="krautcat-github" fetch=".." reivision="master"/>
+    <remote name="krautcat-github" fetch=".." revision="master"/>
     <remote name="github" fetch="ssh://git@github.com/"/>
 
     <project name="zmk" remote="zmk-github"/>
