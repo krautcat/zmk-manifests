@@ -1,11 +1,10 @@
 <manifest>
-    <remote name="zmk-github" fetch="ssh://git@github.com/zmkfirmware/" revision="master"/>
-    <remote name="krautcat-github" fetch=".." revision="master"/>
     <remote name="github" fetch="ssh://git@github.com/"/>
+    <remote name="krautcat-github" fetch="." revision="master"/>
 
     <default remote="krautcat-github" revision="master"/>
 
-    <project name="zmk" remote="zmk-github" revision="main"/>
+    <project name="zmkfirmware/zmk" path="zmk" remote="github" revision="main"/>
     <project name="krikun98/zmk-config" path="zmk-config/tk44" remote="github" revision="tk44"/>
     <project name="zmk-keyboards" path="krautcat-keymaps">
         <linkfile src="ladniy_customs/tk44.keymap" dest="zmk-config/tk44/config/tk44.keymap"/>
