@@ -38,6 +38,7 @@ Now you're ready to build my keymaps.
  - TK44
     
    ```bash
-   west build -p -d build/tk44 -- -DZMK_CONFIG="$(realpath ../../zmk-config/ladniy_customs/tk44)"
+   west build -p -d build/tk44 -b tk44 -- \
+       -DZMK_CONFIG="$(realpath ../../zmk-config/ladniy_customs/tk44/config)"
    ```
 
