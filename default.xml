@@ -5,8 +5,6 @@
     <default remote="krautcat-github" revision="master"/>
 
     <project name="zmkfirmware/zmk" path="zmk" remote="github" revision="main"/>
-    <project name="krikun98/zmk-config" path="zmk-config/tk44" remote="github" revision="tk44"/>
-    <project name="zmk-keyboards" path="krautcat-keymaps">
-        <copyfile src="ladniy_customs/tk44.keymap" dest="zmk-config/ladniy_customs/tk44/config/tk44.keymap"/>
-    </project>
+    <project name="krikun98/zmk-config" path="zmk-config/ladniy_customs/tk44" remote="github" revision="tk44"/>
+    <project name="zmk-keyboards" path="krautcat-keymaps"/>
 </manifest>
